@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.body {
+  height: 100vh;
+  height: 100dvh;
+}
+h1, h2, h3 {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  text-align: center;
+  padding: 4px;
+}
+section {
+
+}
+footer {
+  text-align: center;
+  padding: 4px;
+}
+
+.react-pdf__Document {
+  display: flex;
+  justify-content: center;
+}
+.react-pdf__Page {
+  position: relative;
+}
+.react-pdf__Page__textContent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.react-pdf__Page__textContent span {
+  position: absolute;
+  white-space: nowrap;
+  color: transparent;
+}
+.react-pdf__Page__annotations {
+  display: none;
 }
