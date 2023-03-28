@@ -7,8 +7,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 import App from './App';
 
-import { pdfjs } from 'react-pdf';
-pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
 
 const darkTheme = createTheme({
   palette: {
